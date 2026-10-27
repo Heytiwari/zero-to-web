@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    background: #e0e5ec;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background: #e0e5ec;
+    box-shadow: 9px 9px 18px #a3b1c6, -9px -9px 18px #fff;
+    border-radius: 20px;
+    padding: 36px 30px;
+}
+form{
+    text-align: center;
+}
+
+h1{
+    color: #3d4468;
+    font-size: 26px;
+}
+p{
+    color: #8a93ad;
+    margin: 4px 0 26px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: none;
+    margin-bottom: 18px;
+    color: #3d4468;
+    background: #e0e5ec;
+    box-shadow: inset 6px 6px 12px #a3b1c6, inset -6px -6px 12px #fff;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: inset 6px 6px 12px #a3b1c6, inset -6px -6px 12px #fff, 0 0 0 2px #7c8cff;
+}
+.btn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #6c7bff;
+    background: #e0e5ec;
+    cursor: pointer;
+     box-shadow: 6px 6px 12px #a3b1c6, -6px -6px 12px #fff;
+     margin-bottom: 18px;
+}
+
+.btn button:active{
+    box-shadow: 4px 4px 8px #a3b1c6, -4px -4px 8px #fff;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+p a{
+    color: #6c7bff;
+}
